@@ -1,0 +1,85 @@
+* {
+    font-family: 'Radio Canada Big', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+
+}
+
+window#waybar {
+    background-color: transparent;
+    color: rgba(0,0,0,0.5);
+}
+
+#workspaces button.active {
+    color: white;
+}
+
+
+#workspaces {
+    background-color: rgba(0,0,0,0.5);
+    padding: 0 5.6px 0 0;
+    border: 2px solid rgb(213,0,255);
+}
+
+.modules-left {
+    margin-left: 20px;    
+}
+
+.modules-right {
+    margin-right: 20px;    
+}
+
+#battery,
+#pulseaudio,
+#backlight,
+#custom-weather {
+    color: white; /* color5 */
+    background-color: rgba(0,0,0,0.5); /* background */
+    margin: 0 15px 0 0px;
+    padding: 0 15px 0 15px; /* top, right, bottom, left */
+    border: 2px solid rgb(213,0,255);
+}
+
+#network {
+    color: white; /* color2 */
+    background-color: rgba(0,0,0,0.5); /* background */
+    margin: 0 0px 0 0px;
+    padding: 0 15px 0 15px; /* top, right, bottom, left */
+    border: 2px solid rgb(213,0,255);
+}
+
+#clock {
+    color: white; /* color3 */
+    background-color: rgba(0,0,0,0.5); /* background */
+    margin: 0 15px 0 0;
+    padding: 0 15px 0 15px;
+    border: 2px solid rgb(213,0,255);
+}
+
+#network {
+    color: white; /* color4 */
+}
+
+#pulseaudio {
+    color: white; /* color5 */
+}
+
+#backlight {
+    color: white; /* color5 */
+}
+
+#custom-weather {
+    color: white; /* color2 */
+    background-color: rgba(0,0,0,0.5); /* background */
+    padding: 0 15px 0 15px; /* top, right, bottom, left */
+    border: 2px solid rgb(213,0,255);
+}
+
+#custom-media {
+    color: white; /* color2 */
+    background-color: rgba(0,0,0,0.5); /* background */
+    margin: 0 0px 0 15px;
+    padding: 0 15px 0 15px; /* top, right, bottom, left */
+    border: 2px solid rgb(213,0,255);
+}
